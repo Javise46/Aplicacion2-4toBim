@@ -28,14 +28,14 @@ namespace Aplicacion2_4toBim
                     Console.WriteLine("Escribe el Nombre del Archivo");
                     direccion = Console.ReadLine() + ".txt";
                     Console.WriteLine("Escribe lo que deseas");
-                    linea = Console.ReadLine() + ">";
+                    linea = Console.ReadLine();
                     Escribir(direccion, linea);
                     op = 0;
                 }
                 else if (op == 2)
                 {
                     Console.WriteLine("Escribe El Nombre Del Contacto");
-                    String nombre = Console.ReadLine();
+                    String nombre = Console.ReadLine()+ ".txt";
                     Buscar(nombre);
                     Console.ReadKey();
                     op = 0;
